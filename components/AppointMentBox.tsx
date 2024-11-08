@@ -21,7 +21,7 @@ export default function AppointMentBox({
   const [show, setShow] = useState(false);
   const multiply = Number(heightMultiply);
   const height = 45 * (multiply / 15);
-  const classname = `flex w-[500px] rounded-lg h-[${height}px] cursor-pointer hover:scale-[101%] duration-300`;
+  const classname = `flex w-[300px] rounded-lg h-[${height}px] cursor-pointer hover:scale-[101%] duration-300`;
 
   function toggleDetail() {
     setShow(() => !show);

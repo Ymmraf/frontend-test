@@ -20,7 +20,7 @@ export default function DetailWindow({
 }) {
   if(show) {
     return (
-      <div className="w-[300px] border-2 border-gray-500 rounded-lg bg-white absolute right-4 top-12">
+      <div className="w-[300px] border-2 border-gray-500 rounded-lg bg-white absolute left-[200px] top-12">
         <div className="flex justify-between p-2">
           <div className="mb-2 font-bold text-emerald-500 ">
             <p>นัดหมาย</p>
