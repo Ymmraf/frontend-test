@@ -1,6 +1,6 @@
 export const presentQueues = [
     {
-        name: "คุณานนต์ ภัทรวาทิน",
+        name: "ปาร์ค โซยอน",
         id: "600101",
         day: "3",
         number: "03"
@@ -9,19 +9,19 @@ export const presentQueues = [
 
 export const adminQueues = [
     {
-      name: "เกื้อกูล หมอนคำ",
+      name: "ทุเรียน หวานมาก",
       id: "600103",
       day: "3",
       number: "01"
     },
     {
-      name: "สิทธิเดช มั่นทอง",
+      name: "แมว ร้องเมี๊ยว",
       id: "600102",
       day: "4",
       number: "02"
     },
     {
-      name: "ศีลรมณ มุงขุนการ",
+      name: "คนดี ศรีสังคม",
       id: "600104",
       day: "2",
       number: "04"
@@ -30,13 +30,13 @@ export const adminQueues = [
 
   export const cashierQueue = [
     {
-        name: "กมลภพ ตั้งศรีวงศ์",
+        name: "เด็กน้อย คอยใจ",
         id: "600105",
         day: "3",
         number: "05"
     },
     {
-        name: "พลวัตร พิพิธภักดี",
+        name: "หมูทอด อร่อยดี",
         id: "600106",
         day: "9",
         number: "06"
