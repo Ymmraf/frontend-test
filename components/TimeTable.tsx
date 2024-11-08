@@ -23,9 +23,9 @@ export default function TimeTable({
               <div className="text-center w-20 relative top-[-5px]">{time}</div>
               <div className="flex-1 relative">
                 <AppointMentBox
-                  heightMultiply={haveQueue(time, doctor).time} //สูงเท่าไหร่
-                  data={doctor[haveQueue(time, doctor).index].text} //text ในสีส้ม
-                  doctorName={docName} // ชื่อหมอ
+                  heightMultiply={haveQueue(time, doctor).time}
+                  data={doctor[haveQueue(time, doctor).index].text}
+                  doctorName={docName}
                   doctor={doctor}
                   time={time}
                 />
