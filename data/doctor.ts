@@ -9,6 +9,6 @@ export const doctorData = [
     },
     {
         name: "แพทย์หญิงลองดู ที่สาม",
-        profile: "/doc3.jfif",
+        profile: "/doc3.jpg",
     }
 ]
