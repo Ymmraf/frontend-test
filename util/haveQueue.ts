@@ -1,6 +1,6 @@
-import { DoctorData } from "@/type"
+import { Doctor, HaveQueue } from "@/type"
 
-export function haveQueue(time: string, doctorData: DoctorData[]) : any {
+export function haveQueue(time: string, doctorData: Doctor[]) : HaveQueue {
     let returnValue = 0
     let i = 0
     doctorData.forEach((data,index) => {
